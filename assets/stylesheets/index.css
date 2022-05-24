@@ -1,0 +1,12 @@
+.card:hover {
+    transform: scale(1.1);
+    transition-duration: 400ms;
+}
+
+.card-text {
+    display: -webkit-box;
+    max-height: 120px;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
